@@ -1,0 +1,16 @@
+{
+ "_comment": "Maps words people type to canonical unit names used in dish portion tables.",
+ "aliases": {
+  "piece": ["piece","pieces","pc","pcs","nos","no","number","item","whole"],
+  "katori": ["katori","katoris","katori s","vati","vatti","wati","bowl small","small bowl","kinnam","cup small"],
+  "bowl": ["bowl","bowls","big bowl","large bowl"],
+  "cup": ["cup","cups","mug"],
+  "glass": ["glass","glasses","tumbler"],
+  "plate": ["plate","plates","thali","serving","servings","portion"],
+  "slice": ["slice","slices"],
+  "tsp": ["tsp","teaspoon","teaspoons","chammach","chamach","spoon","spoons","small spoon"],
+  "tbsp": ["tbsp","tablespoon","tablespoons","big spoon","bada chammach"],
+  "g": ["g","gm","gms","gram","grams","gr"],
+  "ml": ["ml","millilitre","milliliter","mls"]
+ }
+}

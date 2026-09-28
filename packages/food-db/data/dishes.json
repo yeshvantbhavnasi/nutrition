@@ -1,0 +1,2206 @@
+[
+ {
+  "id": "roti",
+  "name": "Roti / chapati (no ghee)",
+  "aliases": [
+   "roti",
+   "chapati",
+   "chapatti",
+   "phulka",
+   "fulka",
+   "rotli",
+   "poli",
+   "chapathi",
+   "wheat roti",
+   "atta roti"
+  ],
+  "diet": "vegan",
+  "recipe": [
+   {
+    "code": "A019",
+    "grams": 30
+   }
+  ],
+  "yieldGrams": 38,
+  "portions": {
+   "piece": 38
+  },
+  "defaultUnit": "piece",
+  "assumption": "medium phulka from 30 g atta, no ghee"
+ },
+ {
+  "id": "ghee-roti",
+  "name": "Roti with ghee",
+  "aliases": [
+   "ghee roti",
+   "ghee wali roti",
+   "roti with ghee",
+   "chapati with ghee",
+   "butter roti"
+  ],
+  "diet": "veg",
+  "recipe": [
+   {
+    "code": "A019",
+    "grams": 30
+   },
+   {
+    "code": "T013",
+    "grams": 3
+   }
+  ],
+  "yieldGrams": 41,
+  "portions": {
+   "piece": 41
+  },
+  "defaultUnit": "piece",
+  "assumption": "30 g atta, about half a tsp ghee"
+ },
+ {
+  "id": "paratha",
+  "name": "Plain paratha",
+  "aliases": [
+   "paratha",
+   "parantha",
+   "paratha plain",
+   "tawa paratha",
+   "lachha paratha",
+   "parotta"
+  ],
+  "diet": "veg",
+  "recipe": [
+   {
+    "code": "A019",
+    "grams": 45
+   },
+   {
+    "code": "T013",
+    "grams": 8
+   }
+  ],
+  "yieldGrams": 60,
+  "portions": {
+   "piece": 60
+  },
+  "defaultUnit": "piece",
+  "assumption": "45 g atta, about 1.5 tsp ghee or oil"
+ },
+ {
+  "id": "aloo-paratha",
+  "name": "Aloo paratha",
+  "aliases": [
+   "aloo paratha",
+   "alu paratha",
+   "aloo parantha",
+   "potato paratha"
+  ],
+  "diet": "veg",
+  "recipe": [
+   {
+    "code": "A019",
+    "grams": 50
+   },
+   {
+    "code": "F006",
+    "grams": 60
+   },
+   {
+    "code": "G017",
+    "grams": 5
+   },
+   {
+    "code": "T012",
+    "grams": 10
+   }
+  ],
+  "yieldGrams": 115,
+  "portions": {
+   "piece": 115
+  },
+  "defaultUnit": "piece",
+  "assumption": "2 tsp oil or ghee on the tawa"
+ },
+ {
+  "id": "puri",
+  "name": "Puri",
+  "aliases": [
+   "puri",
+   "poori",
+   "luchi"
+  ],
+  "diet": "vegan",
+  "recipe": [
+   {
+    "code": "A019",
+    "grams": 20
+   },
+   {
+    "code": "T012",
+    "grams": 6
+   }
+  ],
+  "yieldGrams": 25,
+  "portions": {
+   "piece": 25
+  },
+  "defaultUnit": "piece",
+  "assumption": "deep fried, about 6 g oil absorbed"
+ },
+ {
+  "id": "naan",
+  "name": "Naan",
+  "aliases": [
+   "naan",
+   "nan",
+   "butter naan",
+   "plain naan",
+   "tandoori naan"
+  ],
+  "diet": "veg",
+  "recipe": [
+   {
+    "code": "A018",
+    "grams": 70
+   },
+   {
+    "code": "X002",
+    "grams": 10
+   },
+   {
+    "code": "T012",
+    "grams": 3
+   }
+  ],
+  "yieldGrams": 90,
+  "portions": {
+   "piece": 90
+  },
+  "defaultUnit": "piece",
+  "assumption": "restaurant size, without butter on top"
+ },
+ {
+  "id": "bread-slice",
+  "name": "White bread",
+  "aliases": [
+   "bread",
+   "white bread",
+   "bread slice",
+   "double roti",
+   "toast"
+  ],
+  "diet": "vegan",
+  "recipe": [
+   {
+    "code": "X005",
+    "grams": 25
+   }
+  ],
+  "yieldGrams": 25,
+  "portions": {
+   "piece": 25,
+   "slice": 25
+  },
+  "defaultUnit": "slice"
+ },
+ {
+  "id": "rice",
+  "name": "Steamed rice",
+  "aliases": [
+   "rice",
+   "chawal",
+   "chaval",
+   "plain rice",
+   "steamed rice",
+   "boiled rice",
+   "white rice",
+   "bhaat",
+   "bhat",
+   "sadam",
+   "annam",
+   "choru"
+  ],
+  "diet": "vegan",
+  "recipe": [
+   {
+    "code": "A015",
+    "grams": 100
+   }
+  ],
+  "yieldGrams": 300,
+  "portions": {
+   "katori": 120,
+   "cup": 160,
+   "plate": 250
+  },
+  "defaultUnit": "katori",
+  "assumption": "white rice, about 3x its raw weight when cooked"
+ },
+ {
+  "id": "jeera-rice",
+  "name": "Jeera rice",
+  "aliases": [
+   "jeera rice",
+   "zeera rice",
+   "cumin rice"
+  ],
+  "diet": "veg",
+  "recipe": [
+   {
+    "code": "A015",
+    "grams": 100
+   },
+   {
+    "code": "T013",
+    "grams": 8
+   },
+   {
+    "code": "G025",
+    "grams": 2
+   }
+  ],
+  "yieldGrams": 310,
+  "portions": {
+   "katori": 120,
+   "cup": 160,
+   "plate": 250
+  },
+  "defaultUnit": "katori"
+ },
+ {
+  "id": "veg-pulao",
+  "name": "Veg pulao",
+  "aliases": [
+   "pulao",
+   "pulav",
+   "veg pulao",
+   "vegetable pulao",
+   "pilaf",
+   "matar pulao"
+  ],
+  "diet": "vegan",
+  "recipe": [
+   {
+    "code": "A015",
+    "grams": 100
+   },
+   {
+    "code": "T012",
+    "grams": 10
+   },
+   {
+    "code": "D061",
+    "grams": 30
+   },
+   {
+    "code": "F002",
+    "grams": 30
+   },
+   {
+    "code": "G017",
+    "grams": 30
+   }
+  ],
+  "yieldGrams": 380,
+  "portions": {
+   "katori": 150,
+   "plate": 250
+  },
+  "defaultUnit": "plate"
+ },
+ {
+  "id": "chicken-biryani",
+  "name": "Chicken biryani",
+  "aliases": [
+   "chicken biryani",
+   "biryani",
+   "biriyani",
+   "chicken biriyani",
+   "hyderabadi biryani",
+   "dum biryani"
+  ],
+  "diet": "nonveg",
+  "recipe": [
+   {
+    "code": "A015",
+    "grams": 200
+   },
+   {
+    "code": "N002",
+    "grams": 250
+   },
+   {
+    "code": "T012",
+    "grams": 30
+   },
+   {
+    "code": "T013",
+    "grams": 10
+   },
+   {
+    "code": "G017",
+    "grams": 100
+   },
+   {
+    "code": "X002",
+    "grams": 60
+   },
+   {
+    "code": "D076",
+    "grams": 30
+   }
+  ],
+  "yieldGrams": 1000,
+  "portions": {
+   "plate": 300,
+   "katori": 150
+  },
+  "defaultUnit": "plate",
+  "assumption": "home style, chicken with rice in one plate"
+ },
+ {
+  "id": "khichdi",
+  "name": "Khichdi",
+  "aliases": [
+   "khichdi",
+   "khichri",
+   "khichadi",
+   "kitchari",
+   "moong dal khichdi"
+  ],
+  "diet": "veg",
+  "recipe": [
+   {
+    "code": "A015",
+    "grams": 60
+   },
+   {
+    "code": "B010",
+    "grams": 40
+   },
+   {
+    "code": "T013",
+    "grams": 5
+   }
+  ],
+  "yieldGrams": 400,
+  "portions": {
+   "katori": 150,
+   "bowl": 250,
+   "plate": 300
+  },
+  "defaultUnit": "katori",
+  "assumption": "rice and moong dal, 1 tsp ghee per batch"
+ },
+ {
+  "id": "curd-rice",
+  "name": "Curd rice",
+  "aliases": [
+   "curd rice",
+   "dahi chawal",
+   "thayir sadam",
+   "thayir sadham",
+   "mosaru anna",
+   "daddojanam"
+  ],
+  "diet": "veg",
+  "recipe": [
+   {
+    "code": "A015",
+    "grams": 50
+   },
+   {
+    "code": "X002",
+    "grams": 150
+   },
+   {
+    "code": "T012",
+    "grams": 3
+   },
+   {
+    "code": "H013",
+    "grams": 1
+   }
+  ],
+  "yieldGrams": 300,
+  "portions": {
+   "katori": 150,
+   "bowl": 250
+  },
+  "defaultUnit": "katori"
+ },
+ {
+  "id": "poha",
+  "name": "Poha",
+  "aliases": [
+   "poha",
+   "pohe",
+   "kanda poha",
+   "aval",
+   "avalakki",
+   "chivda poha"
+  ],
+  "diet": "vegan",
+  "recipe": [
+   {
+    "code": "A011",
+    "grams": 60
+   },
+   {
+    "code": "T012",
+    "grams": 8
+   },
+   {
+    "code": "G017",
+    "grams": 30
+   },
+   {
+    "code": "F006",
+    "grams": 20
+   },
+   {
+    "code": "X006",
+    "grams": 10
+   }
+  ],
+  "yieldGrams": 160,
+  "portions": {
+   "plate": 160,
+   "katori": 100
+  },
+  "defaultUnit": "plate",
+  "assumption": "with a few peanuts, 2 tsp oil"
+ },
+ {
+  "id": "upma",
+  "name": "Upma",
+  "aliases": [
+   "upma",
+   "uppit",
+   "uppittu",
+   "rava upma",
+   "suji upma",
+   "sooji upma"
+  ],
+  "diet": "vegan",
+  "recipe": [
+   {
+    "code": "A022",
+    "grams": 50
+   },
+   {
+    "code": "T012",
+    "grams": 10
+   },
+   {
+    "code": "G017",
+    "grams": 30
+   },
+   {
+    "code": "F002",
+    "grams": 15
+   },
+   {
+    "code": "D061",
+    "grams": 15
+   }
+  ],
+  "yieldGrams": 220,
+  "portions": {
+   "plate": 200,
+   "katori": 150
+  },
+  "defaultUnit": "plate"
+ },
+ {
+  "id": "idli",
+  "name": "Idli",
+  "aliases": [
+   "idli",
+   "idly",
+   "iddli",
+   "idlis"
+  ],
+  "diet": "vegan",
+  "recipe": [
+   {
+    "code": "A014",
+    "grams": 12
+   },
+   {
+    "code": "B003",
+    "grams": 4
+   }
+  ],
+  "yieldGrams": 35,
+  "portions": {
+   "piece": 35
+  },
+  "defaultUnit": "piece",
+  "assumption": "medium idli, no ghee"
+ },
+ {
+  "id": "dosa",
+  "name": "Plain dosa",
+  "aliases": [
+   "dosa",
+   "plain dosa",
+   "dosai",
+   "dose",
+   "sada dosa"
+  ],
+  "diet": "vegan",
+  "recipe": [
+   {
+    "code": "A014",
+    "grams": 30
+   },
+   {
+    "code": "B003",
+    "grams": 10
+   },
+   {
+    "code": "T012",
+    "grams": 4
+   }
+  ],
+  "yieldGrams": 75,
+  "portions": {
+   "piece": 75
+  },
+  "defaultUnit": "piece",
+  "assumption": "about 1 tsp oil on the tawa"
+ },
+ {
+  "id": "masala-dosa",
+  "name": "Masala dosa",
+  "aliases": [
+   "masala dosa",
+   "masala dosai",
+   "masale dose"
+  ],
+  "diet": "vegan",
+  "recipe": [
+   {
+    "code": "A014",
+    "grams": 30
+   },
+   {
+    "code": "B003",
+    "grams": 10
+   },
+   {
+    "code": "T012",
+    "grams": 9
+   },
+   {
+    "code": "F006",
+    "grams": 80
+   },
+   {
+    "code": "G017",
+    "grams": 15
+   }
+  ],
+  "yieldGrams": 170,
+  "portions": {
+   "piece": 170
+  },
+  "defaultUnit": "piece"
+ },
+ {
+  "id": "medu-vada",
+  "name": "Medu vada",
+  "aliases": [
+   "vada",
+   "medu vada",
+   "uzhunnu vada",
+   "wada",
+   "urad vada"
+  ],
+  "diet": "vegan",
+  "recipe": [
+   {
+    "code": "B003",
+    "grams": 20
+   },
+   {
+    "code": "T012",
+    "grams": 8
+   }
+  ],
+  "yieldGrams": 45,
+  "portions": {
+   "piece": 45
+  },
+  "defaultUnit": "piece",
+  "assumption": "deep fried"
+ },
+ {
+  "id": "besan-chilla",
+  "name": "Besan chilla",
+  "aliases": [
+   "chilla",
+   "cheela",
+   "besan chilla",
+   "besan cheela",
+   "besan ka chilla"
+  ],
+  "diet": "vegan",
+  "recipe": [
+   {
+    "code": "B001",
+    "grams": 40
+   },
+   {
+    "code": "T012",
+    "grams": 5
+   },
+   {
+    "code": "G017",
+    "grams": 15
+   },
+   {
+    "code": "D076",
+    "grams": 10
+   }
+  ],
+  "yieldGrams": 90,
+  "portions": {
+   "piece": 90
+  },
+  "defaultUnit": "piece"
+ },
+ {
+  "id": "dhokla",
+  "name": "Dhokla",
+  "aliases": [
+   "dhokla",
+   "khaman",
+   "khaman dhokla"
+  ],
+  "diet": "veg",
+  "recipe": [
+   {
+    "code": "B001",
+    "grams": 50
+   },
+   {
+    "code": "T012",
+    "grams": 5
+   },
+   {
+    "code": "X002",
+    "grams": 20
+   },
+   {
+    "code": "X001",
+    "grams": 3
+   }
+  ],
+  "yieldGrams": 150,
+  "portions": {
+   "piece": 30,
+   "plate": 120
+  },
+  "defaultUnit": "piece"
+ },
+ {
+  "id": "sambar",
+  "name": "Sambar",
+  "aliases": [
+   "sambar",
+   "sambhar",
+   "saambar",
+   "kuzhambu"
+  ],
+  "diet": "vegan",
+  "recipe": [
+   {
+    "code": "B021",
+    "grams": 40
+   },
+   {
+    "code": "D046",
+    "grams": 30
+   },
+   {
+    "code": "D031",
+    "grams": 30
+   },
+   {
+    "code": "D076",
+    "grams": 30
+   },
+   {
+    "code": "G017",
+    "grams": 20
+   },
+   {
+    "code": "E064",
+    "grams": 5
+   },
+   {
+    "code": "T012",
+    "grams": 8
+   }
+  ],
+  "yieldGrams": 400,
+  "portions": {
+   "katori": 150,
+   "bowl": 250
+  },
+  "defaultUnit": "katori"
+ },
+ {
+  "id": "coconut-chutney",
+  "name": "Coconut chutney",
+  "aliases": [
+   "coconut chutney",
+   "chutney",
+   "nariyal chutney",
+   "thengai chutney",
+   "kobbari pachadi"
+  ],
+  "diet": "vegan",
+  "recipe": [
+   {
+    "code": "H007",
+    "grams": 40
+   },
+   {
+    "code": "B001",
+    "grams": 10
+   },
+   {
+    "code": "T012",
+    "grams": 2
+   }
+  ],
+  "yieldGrams": 80,
+  "portions": {
+   "tbsp": 15,
+   "katori": 50
+  },
+  "defaultUnit": "tbsp"
+ },
+ {
+  "id": "toor-dal",
+  "name": "Toor dal (home style)",
+  "aliases": [
+   "dal",
+   "daal",
+   "dhal",
+   "toor dal",
+   "tuvar dal",
+   "arhar dal",
+   "dal tadka",
+   "tadka dal",
+   "yellow dal",
+   "pappu",
+   "paruppu",
+   "varan",
+   "amti"
+  ],
+  "diet": "veg",
+  "recipe": [
+   {
+    "code": "B021",
+    "grams": 40
+   },
+   {
+    "code": "T013",
+    "grams": 7
+   },
+   {
+    "code": "G017",
+    "grams": 10
+   },
+   {
+    "code": "D076",
+    "grams": 20
+   }
+  ],
+  "yieldGrams": 220,
+  "portions": {
+   "katori": 150,
+   "bowl": 250,
+   "cup": 200
+  },
+  "defaultUnit": "katori",
+  "assumption": "home style, about 1 tsp ghee per katori"
+ },
+ {
+  "id": "moong-dal",
+  "name": "Moong dal",
+  "aliases": [
+   "moong dal",
+   "mung dal",
+   "moong ki dal",
+   "yellow moong dal",
+   "pesarapappu"
+  ],
+  "diet": "veg",
+  "recipe": [
+   {
+    "code": "B010",
+    "grams": 40
+   },
+   {
+    "code": "T013",
+    "grams": 5
+   },
+   {
+    "code": "D076",
+    "grams": 15
+   }
+  ],
+  "yieldGrams": 230,
+  "portions": {
+   "katori": 150,
+   "bowl": 250
+  },
+  "defaultUnit": "katori"
+ },
+ {
+  "id": "masoor-dal",
+  "name": "Masoor dal",
+  "aliases": [
+   "masoor dal",
+   "masur dal",
+   "red lentil dal",
+   "musur dal"
+  ],
+  "diet": "vegan",
+  "recipe": [
+   {
+    "code": "B013",
+    "grams": 40
+   },
+   {
+    "code": "T012",
+    "grams": 5
+   },
+   {
+    "code": "G017",
+    "grams": 15
+   },
+   {
+    "code": "D076",
+    "grams": 20
+   }
+  ],
+  "yieldGrams": 230,
+  "portions": {
+   "katori": 150,
+   "bowl": 250
+  },
+  "defaultUnit": "katori"
+ },
+ {
+  "id": "chana-dal",
+  "name": "Chana dal",
+  "aliases": [
+   "chana dal",
+   "chane ki dal",
+   "cholar dal",
+   "kadalai paruppu"
+  ],
+  "diet": "vegan",
+  "recipe": [
+   {
+    "code": "B001",
+    "grams": 40
+   },
+   {
+    "code": "T012",
+    "grams": 7
+   },
+   {
+    "code": "G017",
+    "grams": 15
+   },
+   {
+    "code": "D076",
+    "grams": 20
+   }
+  ],
+  "yieldGrams": 220,
+  "portions": {
+   "katori": 150,
+   "bowl": 250
+  },
+  "defaultUnit": "katori"
+ },
+ {
+  "id": "dal-makhani",
+  "name": "Dal makhani",
+  "aliases": [
+   "dal makhani",
+   "dal makhni",
+   "maa ki dal",
+   "kaali dal"
+  ],
+  "diet": "veg",
+  "recipe": [
+   {
+    "code": "B004",
+    "grams": 40
+   },
+   {
+    "code": "B020",
+    "grams": 10
+   },
+   {
+    "code": "X003",
+    "grams": 20
+   },
+   {
+    "code": "X004",
+    "grams": 20
+   },
+   {
+    "code": "T013",
+    "grams": 5
+   },
+   {
+    "code": "D076",
+    "grams": 40
+   },
+   {
+    "code": "G017",
+    "grams": 20
+   }
+  ],
+  "yieldGrams": 300,
+  "portions": {
+   "katori": 150,
+   "bowl": 250
+  },
+  "defaultUnit": "katori",
+  "assumption": "restaurant style with butter and cream"
+ },
+ {
+  "id": "rajma",
+  "name": "Rajma",
+  "aliases": [
+   "rajma",
+   "rajmah",
+   "rajma masala",
+   "kidney beans curry",
+   "rajma curry"
+  ],
+  "diet": "vegan",
+  "recipe": [
+   {
+    "code": "B020",
+    "grams": 50
+   },
+   {
+    "code": "T012",
+    "grams": 12
+   },
+   {
+    "code": "G017",
+    "grams": 40
+   },
+   {
+    "code": "D076",
+    "grams": 60
+   }
+  ],
+  "yieldGrams": 300,
+  "portions": {
+   "katori": 150,
+   "bowl": 250
+  },
+  "defaultUnit": "katori"
+ },
+ {
+  "id": "chole",
+  "name": "Chole",
+  "aliases": [
+   "chole",
+   "chhole",
+   "chana masala",
+   "chole masala",
+   "kabuli chana",
+   "chickpea curry",
+   "chholay"
+  ],
+  "diet": "vegan",
+  "recipe": [
+   {
+    "code": "B002",
+    "grams": 50
+   },
+   {
+    "code": "T012",
+    "grams": 12
+   },
+   {
+    "code": "G017",
+    "grams": 40
+   },
+   {
+    "code": "D076",
+    "grams": 60
+   }
+  ],
+  "yieldGrams": 300,
+  "portions": {
+   "katori": 150,
+   "bowl": 250
+  },
+  "defaultUnit": "katori"
+ },
+ {
+  "id": "kadhi",
+  "name": "Kadhi",
+  "aliases": [
+   "kadhi",
+   "kadi",
+   "karhi",
+   "dahi kadhi",
+   "gujarati kadhi"
+  ],
+  "diet": "veg",
+  "recipe": [
+   {
+    "code": "X002",
+    "grams": 100
+   },
+   {
+    "code": "B001",
+    "grams": 20
+   },
+   {
+    "code": "T012",
+    "grams": 8
+   }
+  ],
+  "yieldGrams": 300,
+  "portions": {
+   "katori": 150,
+   "bowl": 250
+  },
+  "defaultUnit": "katori",
+  "assumption": "without pakoras"
+ },
+ {
+  "id": "palak-paneer",
+  "name": "Palak paneer",
+  "aliases": [
+   "palak paneer",
+   "saag paneer",
+   "spinach paneer"
+  ],
+  "diet": "veg",
+  "recipe": [
+   {
+    "code": "C033",
+    "grams": 200
+   },
+   {
+    "code": "L003",
+    "grams": 100
+   },
+   {
+    "code": "T012",
+    "grams": 12
+   },
+   {
+    "code": "G017",
+    "grams": 40
+   },
+   {
+    "code": "D076",
+    "grams": 30
+   },
+   {
+    "code": "X004",
+    "grams": 10
+   }
+  ],
+  "yieldGrams": 380,
+  "portions": {
+   "katori": 150
+  },
+  "defaultUnit": "katori"
+ },
+ {
+  "id": "paneer-butter-masala",
+  "name": "Paneer butter masala",
+  "aliases": [
+   "paneer butter masala",
+   "paneer makhani",
+   "butter paneer",
+   "shahi paneer"
+  ],
+  "diet": "veg",
+  "recipe": [
+   {
+    "code": "L003",
+    "grams": 100
+   },
+   {
+    "code": "X003",
+    "grams": 15
+   },
+   {
+    "code": "X004",
+    "grams": 20
+   },
+   {
+    "code": "D076",
+    "grams": 150
+   },
+   {
+    "code": "G017",
+    "grams": 40
+   },
+   {
+    "code": "H005",
+    "grams": 10
+   },
+   {
+    "code": "T012",
+    "grams": 5
+   }
+  ],
+  "yieldGrams": 350,
+  "portions": {
+   "katori": 150
+  },
+  "defaultUnit": "katori",
+  "assumption": "restaurant style"
+ },
+ {
+  "id": "matar-paneer",
+  "name": "Matar paneer",
+  "aliases": [
+   "matar paneer",
+   "mutter paneer",
+   "peas paneer"
+  ],
+  "diet": "veg",
+  "recipe": [
+   {
+    "code": "L003",
+    "grams": 80
+   },
+   {
+    "code": "D061",
+    "grams": 80
+   },
+   {
+    "code": "T012",
+    "grams": 12
+   },
+   {
+    "code": "D076",
+    "grams": 80
+   },
+   {
+    "code": "G017",
+    "grams": 40
+   }
+  ],
+  "yieldGrams": 350,
+  "portions": {
+   "katori": 150
+  },
+  "defaultUnit": "katori"
+ },
+ {
+  "id": "paneer-bhurji",
+  "name": "Paneer bhurji",
+  "aliases": [
+   "paneer bhurji",
+   "paneer bhurjee",
+   "scrambled paneer"
+  ],
+  "diet": "veg",
+  "recipe": [
+   {
+    "code": "L003",
+    "grams": 100
+   },
+   {
+    "code": "T012",
+    "grams": 10
+   },
+   {
+    "code": "G017",
+    "grams": 30
+   },
+   {
+    "code": "D076",
+    "grams": 30
+   }
+  ],
+  "yieldGrams": 170,
+  "portions": {
+   "katori": 120
+  },
+  "defaultUnit": "katori"
+ },
+ {
+  "id": "aloo-gobi",
+  "name": "Aloo gobi",
+  "aliases": [
+   "aloo gobi",
+   "alu gobi",
+   "gobi aloo",
+   "aloo gobhi",
+   "gobi sabzi",
+   "cauliflower sabzi"
+  ],
+  "diet": "vegan",
+  "recipe": [
+   {
+    "code": "F006",
+    "grams": 150
+   },
+   {
+    "code": "D036",
+    "grams": 150
+   },
+   {
+    "code": "T012",
+    "grams": 15
+   },
+   {
+    "code": "G017",
+    "grams": 30
+   },
+   {
+    "code": "D076",
+    "grams": 30
+   }
+  ],
+  "yieldGrams": 330,
+  "portions": {
+   "katori": 120
+  },
+  "defaultUnit": "katori",
+  "assumption": "dry sabzi, 1 tbsp oil per batch"
+ },
+ {
+  "id": "bhindi",
+  "name": "Bhindi sabzi",
+  "aliases": [
+   "bhindi",
+   "bhindi sabzi",
+   "bhindi masala",
+   "bhindi fry",
+   "okra",
+   "ladies finger",
+   "vendakkai",
+   "bendakaya",
+   "bhinda"
+  ],
+  "diet": "vegan",
+  "recipe": [
+   {
+    "code": "D056",
+    "grams": 250
+   },
+   {
+    "code": "T012",
+    "grams": 15
+   },
+   {
+    "code": "G017",
+    "grams": 40
+   }
+  ],
+  "yieldGrams": 220,
+  "portions": {
+   "katori": 120
+  },
+  "defaultUnit": "katori",
+  "assumption": "dry sabzi, 1 tbsp oil per batch"
+ },
+ {
+  "id": "baingan-bharta",
+  "name": "Baingan bharta",
+  "aliases": [
+   "baingan bharta",
+   "baigan bharta",
+   "bharta",
+   "vangyache bharit",
+   "brinjal bharta"
+  ],
+  "diet": "vegan",
+  "recipe": [
+   {
+    "code": "D031",
+    "grams": 300
+   },
+   {
+    "code": "T012",
+    "grams": 12
+   },
+   {
+    "code": "G017",
+    "grams": 50
+   },
+   {
+    "code": "D076",
+    "grams": 50
+   }
+  ],
+  "yieldGrams": 300,
+  "portions": {
+   "katori": 120
+  },
+  "defaultUnit": "katori"
+ },
+ {
+  "id": "aloo-sabzi",
+  "name": "Aloo sabzi",
+  "aliases": [
+   "aloo sabzi",
+   "aloo ki sabzi",
+   "alu sabji",
+   "aloo curry",
+   "potato curry",
+   "batata bhaji",
+   "aloo rassa"
+  ],
+  "diet": "vegan",
+  "recipe": [
+   {
+    "code": "F006",
+    "grams": 250
+   },
+   {
+    "code": "T012",
+    "grams": 15
+   },
+   {
+    "code": "D076",
+    "grams": 50
+   },
+   {
+    "code": "G017",
+    "grams": 20
+   }
+  ],
+  "yieldGrams": 330,
+  "portions": {
+   "katori": 150
+  },
+  "defaultUnit": "katori"
+ },
+ {
+  "id": "cabbage-sabzi",
+  "name": "Cabbage sabzi",
+  "aliases": [
+   "cabbage sabzi",
+   "patta gobi",
+   "band gobhi",
+   "cabbage poriyal",
+   "cabbage thoran"
+  ],
+  "diet": "vegan",
+  "recipe": [
+   {
+    "code": "C015",
+    "grams": 300
+   },
+   {
+    "code": "T012",
+    "grams": 12
+   },
+   {
+    "code": "D061",
+    "grams": 30
+   }
+  ],
+  "yieldGrams": 250,
+  "portions": {
+   "katori": 120
+  },
+  "defaultUnit": "katori"
+ },
+ {
+  "id": "mixed-veg",
+  "name": "Mixed vegetable sabzi",
+  "aliases": [
+   "mixed veg",
+   "mix veg",
+   "mixed vegetable",
+   "mix vegetable sabzi",
+   "veg curry",
+   "sabzi",
+   "sabji",
+   "subzi"
+  ],
+  "diet": "vegan",
+  "recipe": [
+   {
+    "code": "F002",
+    "grams": 60
+   },
+   {
+    "code": "D049",
+    "grams": 60
+   },
+   {
+    "code": "D061",
+    "grams": 60
+   },
+   {
+    "code": "D036",
+    "grams": 60
+   },
+   {
+    "code": "F006",
+    "grams": 60
+   },
+   {
+    "code": "T012",
+    "grams": 15
+   },
+   {
+    "code": "G017",
+    "grams": 30
+   },
+   {
+    "code": "D076",
+    "grams": 40
+   }
+  ],
+  "yieldGrams": 380,
+  "portions": {
+   "katori": 150
+  },
+  "defaultUnit": "katori",
+  "assumption": "generic sabzi when the vegetable isn't named"
+ },
+ {
+  "id": "lauki",
+  "name": "Lauki sabzi",
+  "aliases": [
+   "lauki",
+   "lauki sabzi",
+   "ghiya",
+   "dudhi",
+   "bottle gourd",
+   "sorakaya",
+   "churakka"
+  ],
+  "diet": "vegan",
+  "recipe": [
+   {
+    "code": "D007",
+    "grams": 350
+   },
+   {
+    "code": "T012",
+    "grams": 10
+   },
+   {
+    "code": "D076",
+    "grams": 40
+   }
+  ],
+  "yieldGrams": 330,
+  "portions": {
+   "katori": 150
+  },
+  "defaultUnit": "katori"
+ },
+ {
+  "id": "chicken-curry",
+  "name": "Chicken curry",
+  "aliases": [
+   "chicken curry",
+   "chicken",
+   "chicken masala",
+   "murgh curry",
+   "kozhi curry",
+   "chicken gravy"
+  ],
+  "diet": "nonveg",
+  "recipe": [
+   {
+    "code": "N002",
+    "grams": 500
+   },
+   {
+    "code": "T012",
+    "grams": 30
+   },
+   {
+    "code": "G017",
+    "grams": 150
+   },
+   {
+    "code": "D076",
+    "grams": 150
+   },
+   {
+    "code": "X002",
+    "grams": 50
+   },
+   {
+    "code": "G014",
+    "grams": 10
+   },
+   {
+    "code": "G011",
+    "grams": 10
+   }
+  ],
+  "yieldGrams": 850,
+  "portions": {
+   "katori": 150,
+   "bowl": 250
+  },
+  "defaultUnit": "katori",
+  "assumption": "home style, skinless pieces"
+ },
+ {
+  "id": "butter-chicken",
+  "name": "Butter chicken",
+  "aliases": [
+   "butter chicken",
+   "murgh makhani",
+   "chicken makhani"
+  ],
+  "diet": "nonveg",
+  "recipe": [
+   {
+    "code": "N003",
+    "grams": 500
+   },
+   {
+    "code": "X003",
+    "grams": 40
+   },
+   {
+    "code": "X004",
+    "grams": 60
+   },
+   {
+    "code": "D076",
+    "grams": 250
+   },
+   {
+    "code": "H005",
+    "grams": 20
+   },
+   {
+    "code": "T012",
+    "grams": 10
+   }
+  ],
+  "yieldGrams": 900,
+  "portions": {
+   "katori": 150,
+   "bowl": 250
+  },
+  "defaultUnit": "katori",
+  "assumption": "restaurant style"
+ },
+ {
+  "id": "mutton-curry",
+  "name": "Mutton curry",
+  "aliases": [
+   "mutton curry",
+   "mutton",
+   "gosht",
+   "mutton masala",
+   "rogan josh",
+   "goat curry",
+   "lamb curry"
+  ],
+  "diet": "nonveg",
+  "recipe": [
+   {
+    "code": "O001",
+    "grams": 500
+   },
+   {
+    "code": "T012",
+    "grams": 35
+   },
+   {
+    "code": "G017",
+    "grams": 150
+   },
+   {
+    "code": "D076",
+    "grams": 100
+   },
+   {
+    "code": "X002",
+    "grams": 50
+   }
+  ],
+  "yieldGrams": 800,
+  "portions": {
+   "katori": 150,
+   "bowl": 250
+  },
+  "defaultUnit": "katori"
+ },
+ {
+  "id": "fish-curry",
+  "name": "Fish curry",
+  "aliases": [
+   "fish curry",
+   "fish",
+   "machher jhol",
+   "macher jhol",
+   "meen curry",
+   "rohu curry",
+   "fish gravy"
+  ],
+  "diet": "nonveg",
+  "recipe": [
+   {
+    "code": "S006",
+    "grams": 400
+   },
+   {
+    "code": "T006",
+    "grams": 25
+   },
+   {
+    "code": "G017",
+    "grams": 60
+   },
+   {
+    "code": "D076",
+    "grams": 60
+   }
+  ],
+  "yieldGrams": 650,
+  "portions": {
+   "katori": 150,
+   "piece": 90
+  },
+  "defaultUnit": "katori",
+  "assumption": "rohu in mustard oil gravy"
+ },
+ {
+  "id": "egg-curry",
+  "name": "Egg curry",
+  "aliases": [
+   "egg curry",
+   "anda curry",
+   "egg masala",
+   "mutta curry",
+   "dimer dalna"
+  ],
+  "diet": "egg",
+  "recipe": [
+   {
+    "code": "M004",
+    "grams": 200
+   },
+   {
+    "code": "T012",
+    "grams": 15
+   },
+   {
+    "code": "G017",
+    "grams": 80
+   },
+   {
+    "code": "D076",
+    "grams": 100
+   }
+  ],
+  "yieldGrams": 450,
+  "portions": {
+   "katori": 150
+  },
+  "defaultUnit": "katori",
+  "assumption": "4 eggs per batch"
+ },
+ {
+  "id": "boiled-egg",
+  "name": "Boiled egg",
+  "aliases": [
+   "boiled egg",
+   "egg",
+   "anda",
+   "ande",
+   "hard boiled egg",
+   "ubla anda"
+  ],
+  "diet": "egg",
+  "recipe": [
+   {
+    "code": "M004",
+    "grams": 50
+   }
+  ],
+  "yieldGrams": 50,
+  "portions": {
+   "piece": 50
+  },
+  "defaultUnit": "piece"
+ },
+ {
+  "id": "omelette",
+  "name": "Omelette",
+  "aliases": [
+   "omelette",
+   "omelet",
+   "omlet",
+   "masala omelette",
+   "anda omelette"
+  ],
+  "diet": "egg",
+  "recipe": [
+   {
+    "code": "M001",
+    "grams": 100
+   },
+   {
+    "code": "T012",
+    "grams": 5
+   },
+   {
+    "code": "G017",
+    "grams": 10
+   }
+  ],
+  "yieldGrams": 100,
+  "portions": {
+   "piece": 100
+  },
+  "defaultUnit": "piece",
+  "assumption": "2 eggs, 1 tsp oil"
+ },
+ {
+  "id": "egg-bhurji",
+  "name": "Egg bhurji",
+  "aliases": [
+   "egg bhurji",
+   "anda bhurji",
+   "scrambled eggs",
+   "egg scramble"
+  ],
+  "diet": "egg",
+  "recipe": [
+   {
+    "code": "M001",
+    "grams": 100
+   },
+   {
+    "code": "T012",
+    "grams": 10
+   },
+   {
+    "code": "G017",
+    "grams": 30
+   },
+   {
+    "code": "D076",
+    "grams": 20
+   }
+  ],
+  "yieldGrams": 140,
+  "portions": {
+   "katori": 120,
+   "plate": 140
+  },
+  "defaultUnit": "plate",
+  "assumption": "2 eggs"
+ },
+ {
+  "id": "curd",
+  "name": "Curd (dahi)",
+  "aliases": [
+   "curd",
+   "dahi",
+   "yogurt",
+   "yoghurt",
+   "thayir",
+   "perugu",
+   "mosaru"
+  ],
+  "diet": "veg",
+  "recipe": [
+   {
+    "code": "X002",
+    "grams": 100
+   }
+  ],
+  "yieldGrams": 100,
+  "portions": {
+   "katori": 150,
+   "cup": 200,
+   "tbsp": 15
+  },
+  "defaultUnit": "katori"
+ },
+ {
+  "id": "raita",
+  "name": "Raita",
+  "aliases": [
+   "raita",
+   "cucumber raita",
+   "boondi raita",
+   "kheera raita"
+  ],
+  "diet": "veg",
+  "recipe": [
+   {
+    "code": "X002",
+    "grams": 100
+   },
+   {
+    "code": "D043",
+    "grams": 30
+   }
+  ],
+  "yieldGrams": 130,
+  "portions": {
+   "katori": 100
+  },
+  "defaultUnit": "katori"
+ },
+ {
+  "id": "chaas",
+  "name": "Chaas / buttermilk",
+  "aliases": [
+   "chaas",
+   "chhaas",
+   "chhach",
+   "buttermilk",
+   "majjige",
+   "mor",
+   "majjiga",
+   "mattha"
+  ],
+  "diet": "veg",
+  "recipe": [
+   {
+    "code": "X002",
+    "grams": 60
+   }
+  ],
+  "yieldGrams": 250,
+  "portions": {
+   "glass": 250
+  },
+  "defaultUnit": "glass"
+ },
+ {
+  "id": "sweet-lassi",
+  "name": "Sweet lassi",
+  "aliases": [
+   "lassi",
+   "sweet lassi",
+   "meethi lassi"
+  ],
+  "diet": "veg",
+  "recipe": [
+   {
+    "code": "X002",
+    "grams": 200
+   },
+   {
+    "code": "X001",
+    "grams": 20
+   }
+  ],
+  "yieldGrams": 250,
+  "portions": {
+   "glass": 250
+  },
+  "defaultUnit": "glass"
+ },
+ {
+  "id": "masala-chai",
+  "name": "Chai with milk and sugar",
+  "aliases": [
+   "chai",
+   "tea",
+   "masala chai",
+   "cutting chai",
+   "doodh chai",
+   "milk tea",
+   "ginger tea",
+   "adrak chai"
+  ],
+  "diet": "veg",
+  "recipe": [
+   {
+    "code": "L002",
+    "grams": 60
+   },
+   {
+    "code": "X001",
+    "grams": 8
+   }
+  ],
+  "yieldGrams": 150,
+  "portions": {
+   "cup": 150,
+   "glass": 200
+  },
+  "defaultUnit": "cup",
+  "assumption": "2 tsp sugar per cup"
+ },
+ {
+  "id": "filter-coffee",
+  "name": "Filter coffee",
+  "aliases": [
+   "filter coffee",
+   "coffee",
+   "kaapi",
+   "kapi",
+   "milk coffee"
+  ],
+  "diet": "veg",
+  "recipe": [
+   {
+    "code": "L002",
+    "grams": 80
+   },
+   {
+    "code": "X001",
+    "grams": 8
+   }
+  ],
+  "yieldGrams": 120,
+  "portions": {
+   "cup": 120,
+   "glass": 200
+  },
+  "defaultUnit": "cup",
+  "assumption": "2 tsp sugar per cup"
+ },
+ {
+  "id": "milk",
+  "name": "Milk",
+  "aliases": [
+   "milk",
+   "doodh",
+   "dudh",
+   "paal",
+   "haldi doodh",
+   "plain milk"
+  ],
+  "diet": "veg",
+  "recipe": [
+   {
+    "code": "L002",
+    "grams": 100
+   }
+  ],
+  "yieldGrams": 100,
+  "portions": {
+   "glass": 250,
+   "cup": 200
+  },
+  "defaultUnit": "glass",
+  "assumption": "cow's milk, whole"
+ },
+ {
+  "id": "samosa",
+  "name": "Samosa",
+  "aliases": [
+   "samosa",
+   "samosas",
+   "singara",
+   "shingara",
+   "aloo samosa"
+  ],
+  "diet": "vegan",
+  "recipe": [
+   {
+    "code": "A018",
+    "grams": 30
+   },
+   {
+    "code": "T012",
+    "grams": 12
+   },
+   {
+    "code": "F006",
+    "grams": 50
+   },
+   {
+    "code": "D061",
+    "grams": 5
+   }
+  ],
+  "yieldGrams": 90,
+  "portions": {
+   "piece": 90
+  },
+  "defaultUnit": "piece",
+  "assumption": "medium, deep fried"
+ },
+ {
+  "id": "pakora",
+  "name": "Onion pakora",
+  "aliases": [
+   "pakora",
+   "pakoda",
+   "bhajiya",
+   "bhaji",
+   "onion pakora",
+   "kanda bhaji",
+   "pyaz pakoda"
+  ],
+  "diet": "vegan",
+  "recipe": [
+   {
+    "code": "B001",
+    "grams": 30
+   },
+   {
+    "code": "G017",
+    "grams": 40
+   },
+   {
+    "code": "T012",
+    "grams": 12
+   }
+  ],
+  "yieldGrams": 80,
+  "portions": {
+   "piece": 20,
+   "plate": 100
+  },
+  "defaultUnit": "piece"
+ },
+ {
+  "id": "gulab-jamun",
+  "name": "Gulab jamun",
+  "aliases": [
+   "gulab jamun",
+   "gulab jamoon",
+   "gulabjamun",
+   "jamun"
+  ],
+  "diet": "veg",
+  "recipe": [
+   {
+    "code": "L004",
+    "grams": 15
+   },
+   {
+    "code": "A018",
+    "grams": 5
+   },
+   {
+    "code": "X001",
+    "grams": 15
+   },
+   {
+    "code": "T012",
+    "grams": 5
+   }
+  ],
+  "yieldGrams": 40,
+  "portions": {
+   "piece": 40
+  },
+  "defaultUnit": "piece",
+  "assumption": "with syrup absorbed"
+ },
+ {
+  "id": "banana",
+  "name": "Banana",
+  "aliases": [
+   "banana",
+   "kela",
+   "kele",
+   "vazhaipazham",
+   "arati pandu"
+  ],
+  "diet": "vegan",
+  "recipe": [
+   {
+    "code": "E012",
+    "grams": 100
+   }
+  ],
+  "yieldGrams": 100,
+  "portions": {
+   "piece": 100
+  },
+  "defaultUnit": "piece",
+  "assumption": "medium, edible part"
+ },
+ {
+  "id": "apple",
+  "name": "Apple",
+  "aliases": [
+   "apple",
+   "seb",
+   "saeb"
+  ],
+  "diet": "vegan",
+  "recipe": [
+   {
+    "code": "E001",
+    "grams": 150
+   }
+  ],
+  "yieldGrams": 150,
+  "portions": {
+   "piece": 150
+  },
+  "defaultUnit": "piece",
+  "assumption": "medium, edible part"
+ },
+ {
+  "id": "ghee",
+  "name": "Ghee",
+  "aliases": [
+   "ghee",
+   "desi ghee",
+   "clarified butter",
+   "neyyi",
+   "tuppa"
+  ],
+  "diet": "veg",
+  "recipe": [
+   {
+    "code": "T013",
+    "grams": 100
+   }
+  ],
+  "yieldGrams": 100,
+  "portions": {
+   "tsp": 5,
+   "tbsp": 14
+  },
+  "defaultUnit": "tsp"
+ },
+ {
+  "id": "sugar",
+  "name": "Sugar",
+  "aliases": [
+   "sugar",
+   "cheeni",
+   "shakkar",
+   "chini"
+  ],
+  "diet": "vegan",
+  "recipe": [
+   {
+    "code": "X001",
+    "grams": 100
+   }
+  ],
+  "yieldGrams": 100,
+  "portions": {
+   "tsp": 5,
+   "tbsp": 13
+  },
+  "defaultUnit": "tsp"
+ }
+]

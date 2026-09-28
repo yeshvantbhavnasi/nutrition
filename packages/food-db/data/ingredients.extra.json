@@ -1,0 +1,8 @@
+[
+ {"code":"X001","name":"Sugar, white","group":"Sugars","localNames":"H. Cheeni; Tam. Sarkarai","source":"USDA-FDC","kcal":387,"protein":0,"fat":0,"carbs":100,"fiber":0},
+ {"code":"X002","name":"Curd (dahi), whole milk","group":"Milk and Milk Products","localNames":"H. Dahi; Tam. Thayir; Tel. Perugu","source":"USDA-FDC","kcal":61,"protein":3.5,"fat":3.3,"carbs":4.7,"fiber":0},
+ {"code":"X003","name":"Butter, salted","group":"Edible Oils and Fats","localNames":"H. Makhan","source":"USDA-FDC","kcal":717,"protein":0.9,"fat":81.1,"carbs":0.1,"fiber":0},
+ {"code":"X004","name":"Cream, heavy","group":"Milk and Milk Products","localNames":"H. Malai","source":"USDA-FDC","kcal":340,"protein":2.8,"fat":36.1,"carbs":2.7,"fiber":0},
+ {"code":"X005","name":"Bread, white, commercial","group":"Cereals and Millets","localNames":"H. Double roti","source":"USDA-FDC","kcal":266,"protein":7.6,"fat":3.3,"carbs":47.5,"fiber":2.7},
+ {"code":"X006","name":"Groundnut (peanut), raw","group":"Nuts and Oil Seeds","localNames":"H. Moongphali; Mar. Shengdana; Tam. Verkadalai","source":"USDA-FDC","kcal":567,"protein":25.8,"fat":49.2,"carbs":7.6,"fiber":8.5}
+]
