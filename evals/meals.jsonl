@@ -1,0 +1,102 @@
+{"message": "2 roti, 1 katori dal, bhindi sabzi", "expected": [{"dish": "roti", "quantity": 2}, {"dish": "toor-dal", "quantity": 1}, {"dish": "bhindi", "quantity": 1}]}
+{"message": "lunch: 2 phulka, toor dal 1 katori, bhindi sabzi", "expected": [{"dish": "roti", "quantity": 2}, {"dish": "toor-dal", "quantity": 1}, {"dish": "bhindi", "quantity": 1}]}
+{"message": "breakfast 2 idli with sambar and chutney", "expected": [{"dish": "idli", "quantity": 2}, {"dish": "sambar", "quantity": 1}, {"dish": "coconut-chutney", "quantity": 1}]}
+{"message": "3 idly and 1 katori sambhar", "expected": [{"dish": "idli", "quantity": 3}, {"dish": "sambar", "quantity": 1}]}
+{"message": "masala dosa", "expected": [{"dish": "masala-dosa", "quantity": 1}]}
+{"message": "1 plain dosa + coconut chutney", "expected": [{"dish": "dosa", "quantity": 1}, {"dish": "coconut-chutney", "quantity": 1}]}
+{"message": "2 dosai", "expected": [{"dish": "dosa", "quantity": 2}]}
+{"message": "1 plate poha", "expected": [{"dish": "poha", "quantity": 1}]}
+{"message": "kanda poha and chai", "expected": [{"dish": "poha", "quantity": 1}, {"dish": "masala-chai", "quantity": 1}]}
+{"message": "upma", "expected": [{"dish": "upma", "quantity": 1}]}
+{"message": "rava upma 1 plate, filter coffee", "expected": [{"dish": "upma", "quantity": 1}, {"dish": "filter-coffee", "quantity": 1}]}
+{"message": "2 aloo paratha with curd", "expected": [{"dish": "aloo-paratha", "quantity": 2}, {"dish": "curd", "quantity": 1}]}
+{"message": "1 aloo parantha, 1 katori dahi", "expected": [{"dish": "aloo-paratha", "quantity": 1}, {"dish": "curd", "quantity": 1}]}
+{"message": "2 alu paratha and a glass of lassi", "expected": [{"dish": "aloo-paratha", "quantity": 2}, {"dish": "sweet-lassi", "quantity": 1}]}
+{"message": "chole puri", "expected": [{"dish": "chole", "quantity": 1}, {"dish": "puri", "quantity": 1}]}
+{"message": "chole and 4 poori", "expected": [{"dish": "chole", "quantity": 1}, {"dish": "puri", "quantity": 4}]}
+{"message": "rajma chawal", "expected": [{"dish": "rajma", "quantity": 1}, {"dish": "rice", "quantity": 1}]}
+{"message": "rajma and 2 katori rice", "expected": [{"dish": "rajma", "quantity": 1}, {"dish": "rice", "quantity": 2}]}
+{"message": "1 katori rajmah, 1 plate rice", "expected": [{"dish": "rajma", "quantity": 1}, {"dish": "rice", "quantity": 1}]}
+{"message": "dal chawal", "expected": [{"dish": "toor-dal", "quantity": 1}, {"dish": "rice", "quantity": 1}]}
+{"message": "daal, chaval, aloo gobi", "expected": [{"dish": "toor-dal", "quantity": 1}, {"dish": "rice", "quantity": 1}, {"dish": "aloo-gobi", "quantity": 1}]}
+{"message": "dal tadka and jeera rice", "expected": [{"dish": "toor-dal", "quantity": 1}, {"dish": "jeera-rice", "quantity": 1}]}
+{"message": "dal makhani and 2 butter naan", "expected": [{"dish": "dal-makhani", "quantity": 1}, {"dish": "naan", "quantity": 2}]}
+{"message": "paneer butter masala, 2 naan", "expected": [{"dish": "paneer-butter-masala", "quantity": 1}, {"dish": "naan", "quantity": 2}]}
+{"message": "palak paneer with 3 roti", "expected": [{"dish": "palak-paneer", "quantity": 1}, {"dish": "roti", "quantity": 3}]}
+{"message": "matar paneer 1 katori, 2 chapati", "expected": [{"dish": "matar-paneer", "quantity": 1}, {"dish": "roti", "quantity": 2}]}
+{"message": "paneer bhurji and 2 paratha", "expected": [{"dish": "paneer-bhurji", "quantity": 1}, {"dish": "paratha", "quantity": 2}]}
+{"message": "chicken biryani 1 plate and raita", "expected": [{"dish": "chicken-biryani", "quantity": 1}, {"dish": "raita", "quantity": 1}]}
+{"message": "biryani", "expected": [{"dish": "chicken-biryani", "quantity": 1}]}
+{"message": "biriyani with raita", "expected": [{"dish": "chicken-biryani", "quantity": 1}, {"dish": "raita", "quantity": 1}]}
+{"message": "chicken curry and 2 rotis", "expected": [{"dish": "chicken-curry", "quantity": 1}, {"dish": "roti", "quantity": 2}]}
+{"message": "butter chicken, 1 naan, 1 katori rice", "expected": [{"dish": "butter-chicken", "quantity": 1}, {"dish": "naan", "quantity": 1}, {"dish": "rice", "quantity": 1}]}
+{"message": "mutton curry with rice", "expected": [{"dish": "mutton-curry", "quantity": 1}, {"dish": "rice", "quantity": 1}]}
+{"message": "fish curry rice", "expected": [{"dish": "fish-curry", "quantity": 1}, {"dish": "rice", "quantity": 1}]}
+{"message": "machher jhol and bhaat", "expected": [{"dish": "fish-curry", "quantity": 1}, {"dish": "rice", "quantity": 1}]}
+{"message": "egg curry with 2 roti", "expected": [{"dish": "egg-curry", "quantity": 1}, {"dish": "roti", "quantity": 2}]}
+{"message": "2 boiled eggs", "expected": [{"dish": "boiled-egg", "quantity": 2}]}
+{"message": "3 eggs", "expected": [{"dish": "boiled-egg", "quantity": 3}]}
+{"message": "omelette and 2 bread slices", "expected": [{"dish": "omelette", "quantity": 1}, {"dish": "bread-slice", "quantity": 2}]}
+{"message": "masala omelette with 2 slices toast", "expected": [{"dish": "omelette", "quantity": 1}, {"dish": "bread-slice", "quantity": 2}]}
+{"message": "anda bhurji and 2 roti", "expected": [{"dish": "egg-bhurji", "quantity": 1}, {"dish": "roti", "quantity": 2}]}
+{"message": "khichdi 1 bowl", "expected": [{"dish": "khichdi", "quantity": 1}]}
+{"message": "moong dal khichdi and curd", "expected": [{"dish": "khichdi", "quantity": 1}, {"dish": "curd", "quantity": 1}]}
+{"message": "curd rice", "expected": [{"dish": "curd-rice", "quantity": 1}]}
+{"message": "thayir sadam 1 katori", "expected": [{"dish": "curd-rice", "quantity": 1}]}
+{"message": "veg pulao and raita", "expected": [{"dish": "veg-pulao", "quantity": 1}, {"dish": "raita", "quantity": 1}]}
+{"message": "pulav 1 plate", "expected": [{"dish": "veg-pulao", "quantity": 1}]}
+{"message": "sambar rice", "expected": [{"dish": "sambar", "quantity": 1}, {"dish": "rice", "quantity": 1}]}
+{"message": "2 katori rice, 1 katori sambar, cabbage poriyal", "expected": [{"dish": "rice", "quantity": 2}, {"dish": "sambar", "quantity": 1}, {"dish": "cabbage-sabzi", "quantity": 1}]}
+{"message": "baingan bharta, 2 roti, 1 katori dal", "expected": [{"dish": "baingan-bharta", "quantity": 1}, {"dish": "roti", "quantity": 2}, {"dish": "toor-dal", "quantity": 1}]}
+{"message": "aloo ki sabzi and 3 puri", "expected": [{"dish": "aloo-sabzi", "quantity": 1}, {"dish": "puri", "quantity": 3}]}
+{"message": "lauki sabzi, 2 phulka", "expected": [{"dish": "lauki", "quantity": 1}, {"dish": "roti", "quantity": 2}]}
+{"message": "mix veg and 2 chapati", "expected": [{"dish": "mixed-veg", "quantity": 1}, {"dish": "roti", "quantity": 2}]}
+{"message": "kadhi chawal", "expected": [{"dish": "kadhi", "quantity": 1}, {"dish": "rice", "quantity": 1}]}
+{"message": "kadhi and 1 plate rice", "expected": [{"dish": "kadhi", "quantity": 1}, {"dish": "rice", "quantity": 1}]}
+{"message": "masoor dal and rice", "expected": [{"dish": "masoor-dal", "quantity": 1}, {"dish": "rice", "quantity": 1}]}
+{"message": "moong dal 1 katori and 2 roti", "expected": [{"dish": "moong-dal", "quantity": 1}, {"dish": "roti", "quantity": 2}]}
+{"message": "chana dal, 2 ghee roti", "expected": [{"dish": "chana-dal", "quantity": 1}, {"dish": "ghee-roti", "quantity": 2}]}
+{"message": "2 besan chilla", "expected": [{"dish": "besan-chilla", "quantity": 2}]}
+{"message": "dhokla 4 pieces", "expected": [{"dish": "dhokla", "quantity": 4}]}
+{"message": "4 dhokla and chai", "expected": [{"dish": "dhokla", "quantity": 4}, {"dish": "masala-chai", "quantity": 1}]}
+{"message": "samosa and chai", "expected": [{"dish": "samosa", "quantity": 1}, {"dish": "masala-chai", "quantity": 1}]}
+{"message": "2 samosa", "expected": [{"dish": "samosa", "quantity": 2}]}
+{"message": "1 plate pakode", "expected": [{"dish": "pakora", "quantity": 1}]}
+{"message": "5 pakora", "expected": [{"dish": "pakora", "quantity": 5}]}
+{"message": "onion bhajiya 4", "expected": [{"dish": "pakora", "quantity": 4}]}
+{"message": "2 medu vada with sambar", "expected": [{"dish": "medu-vada", "quantity": 2}, {"dish": "sambar", "quantity": 1}]}
+{"message": "vada sambar", "expected": [{"dish": "medu-vada", "quantity": 1}, {"dish": "sambar", "quantity": 1}]}
+{"message": "gulab jamun 2", "expected": [{"dish": "gulab-jamun", "quantity": 2}]}
+{"message": "2 gulab jamun", "expected": [{"dish": "gulab-jamun", "quantity": 2}]}
+{"message": "chai", "expected": [{"dish": "masala-chai", "quantity": 1}]}
+{"message": "2 cups tea", "expected": [{"dish": "masala-chai", "quantity": 2}]}
+{"message": "cutting chai", "expected": [{"dish": "masala-chai", "quantity": 1}]}
+{"message": "1 glass milk", "expected": [{"dish": "milk", "quantity": 1}]}
+{"message": "haldi doodh", "expected": [{"dish": "milk", "quantity": 1}]}
+{"message": "filter coffee", "expected": [{"dish": "filter-coffee", "quantity": 1}]}
+{"message": "kaapi", "expected": [{"dish": "filter-coffee", "quantity": 1}]}
+{"message": "chaas", "expected": [{"dish": "chaas", "quantity": 1}]}
+{"message": "1 glass buttermilk", "expected": [{"dish": "chaas", "quantity": 1}]}
+{"message": "sweet lassi", "expected": [{"dish": "sweet-lassi", "quantity": 1}]}
+{"message": "1 banana", "expected": [{"dish": "banana", "quantity": 1}]}
+{"message": "2 kela", "expected": [{"dish": "banana", "quantity": 2}]}
+{"message": "an apple", "expected": [{"dish": "apple", "quantity": 1}]}
+{"message": "1 tsp ghee", "expected": [{"dish": "ghee", "quantity": 1}]}
+{"message": "2 tsp sugar", "expected": [{"dish": "sugar", "quantity": 2}]}
+{"message": "200 g curd", "expected": [{"dish": "curd", "quantity": 200}]}
+{"message": "150g rice", "expected": [{"dish": "rice", "quantity": 150}]}
+{"message": "half katori dal", "expected": [{"dish": "toor-dal", "quantity": 0.5}]}
+{"message": "1.5 katori rice", "expected": [{"dish": "rice", "quantity": 1.5}]}
+{"message": "ek katori dahi", "expected": [{"dish": "curd", "quantity": 1}]}
+{"message": "do roti aur sabzi", "expected": [{"dish": "roti", "quantity": 2}, {"dish": "mixed-veg", "quantity": 1}]}
+{"message": "teen roti, dal", "expected": [{"dish": "roti", "quantity": 3}, {"dish": "toor-dal", "quantity": 1}]}
+{"message": "nashte mein 2 aloo paratha", "expected": [{"dish": "aloo-paratha", "quantity": 2}]}
+{"message": "aaj lunch me rajma chawal", "expected": [{"dish": "rajma", "quantity": 1}, {"dish": "rice", "quantity": 1}]}
+{"message": "dinner: 2 roti, palak paneer, 1 katori dal", "expected": [{"dish": "roti", "quantity": 2}, {"dish": "palak-paneer", "quantity": 1}, {"dish": "toor-dal", "quantity": 1}]}
+{"message": "2 chapatti, 1 bowl chicken curry", "expected": [{"dish": "roti", "quantity": 2}, {"dish": "chicken-curry", "quantity": 1}]}
+{"message": "3 fulka and bhindi fry", "expected": [{"dish": "roti", "quantity": 3}, {"dish": "bhindi", "quantity": 1}]}
+{"message": "snack: 1 samosa", "expected": [{"dish": "samosa", "quantity": 1}]}
+{"message": "breakfast: 2 slices bread, 2 boiled eggs, 1 glass milk", "expected": [{"dish": "bread-slice", "quantity": 2}, {"dish": "boiled-egg", "quantity": 2}, {"dish": "milk", "quantity": 1}]}
+{"message": "pesarapappu and annam", "expected": [{"dish": "moong-dal", "quantity": 1}, {"dish": "rice", "quantity": 1}]}
+{"message": "pappu annam", "expected": [{"dish": "toor-dal", "quantity": 1}, {"dish": "rice", "quantity": 1}]}
+{"message": "varan bhat", "expected": [{"dish": "toor-dal", "quantity": 1}, {"dish": "rice", "quantity": 1}]}

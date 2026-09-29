@@ -1,0 +1,261 @@
+{
+ "_note": "kcal range for one default portion of each dish, from commonly published Indian diet-chart values. Broad on purpose; tighten against INDB when it is loaded.",
+ "ranges": {
+  "roti": [
+   70,
+   120
+  ],
+  "ghee-roti": [
+   100,
+   150
+  ],
+  "paratha": [
+   180,
+   300
+  ],
+  "aloo-paratha": [
+   250,
+   400
+  ],
+  "puri": [
+   80,
+   150
+  ],
+  "naan": [
+   250,
+   350
+  ],
+  "bread-slice": [
+   60,
+   85
+  ],
+  "rice": [
+   120,
+   180
+  ],
+  "jeera-rice": [
+   140,
+   220
+  ],
+  "veg-pulao": [
+   250,
+   400
+  ],
+  "chicken-biryani": [
+   400,
+   650
+  ],
+  "khichdi": [
+   120,
+   220
+  ],
+  "curd-rice": [
+   130,
+   220
+  ],
+  "poha": [
+   250,
+   400
+  ],
+  "upma": [
+   200,
+   330
+  ],
+  "idli": [
+   35,
+   70
+  ],
+  "dosa": [
+   120,
+   200
+  ],
+  "masala-dosa": [
+   250,
+   400
+  ],
+  "medu-vada": [
+   100,
+   170
+  ],
+  "besan-chilla": [
+   130,
+   220
+  ],
+  "dhokla": [
+   35,
+   75
+  ],
+  "sambar": [
+   70,
+   150
+  ],
+  "coconut-chutney": [
+   25,
+   60
+  ],
+  "toor-dal": [
+   100,
+   200
+  ],
+  "moong-dal": [
+   90,
+   180
+  ],
+  "masoor-dal": [
+   90,
+   180
+  ],
+  "chana-dal": [
+   110,
+   200
+  ],
+  "dal-makhani": [
+   180,
+   320
+  ],
+  "rajma": [
+   130,
+   220
+  ],
+  "chole": [
+   130,
+   230
+  ],
+  "kadhi": [
+   80,
+   170
+  ],
+  "palak-paneer": [
+   160,
+   280
+  ],
+  "paneer-butter-masala": [
+   220,
+   380
+  ],
+  "matar-paneer": [
+   160,
+   280
+  ],
+  "paneer-bhurji": [
+   200,
+   320
+  ],
+  "aloo-gobi": [
+   90,
+   170
+  ],
+  "bhindi": [
+   80,
+   160
+  ],
+  "baingan-bharta": [
+   70,
+   150
+  ],
+  "aloo-sabzi": [
+   120,
+   220
+  ],
+  "cabbage-sabzi": [
+   60,
+   140
+  ],
+  "mixed-veg": [
+   90,
+   180
+  ],
+  "lauki": [
+   50,
+   110
+  ],
+  "chicken-curry": [
+   200,
+   330
+  ],
+  "butter-chicken": [
+   240,
+   420
+  ],
+  "mutton-curry": [
+   220,
+   380
+  ],
+  "fish-curry": [
+   130,
+   250
+  ],
+  "egg-curry": [
+   140,
+   260
+  ],
+  "boiled-egg": [
+   65,
+   85
+  ],
+  "omelette": [
+   150,
+   230
+  ],
+  "egg-bhurji": [
+   190,
+   300
+  ],
+  "curd": [
+   80,
+   130
+  ],
+  "raita": [
+   40,
+   90
+  ],
+  "chaas": [
+   25,
+   70
+  ],
+  "sweet-lassi": [
+   160,
+   280
+  ],
+  "masala-chai": [
+   60,
+   120
+  ],
+  "filter-coffee": [
+   70,
+   130
+  ],
+  "milk": [
+   150,
+   200
+  ],
+  "samosa": [
+   220,
+   320
+  ],
+  "pakora": [
+   40,
+   80
+  ],
+  "gulab-jamun": [
+   120,
+   190
+  ],
+  "banana": [
+   90,
+   120
+  ],
+  "apple": [
+   80,
+   110
+  ],
+  "ghee": [
+   40,
+   50
+  ],
+  "sugar": [
+   15,
+   25
+  ]
+ }
+}
